@@ -1,0 +1,11 @@
+# datatype & variables
+
+a = 1 # it is a integer
+
+b = 20.22 # it is a floting point number
+
+c = "john" # it is a string
+
+#d = true # it is a boolean
+
+print (a + b)
