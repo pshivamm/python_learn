@@ -24,6 +24,6 @@ directory_path= '/'
 contents = os.listdir(directory_path)
 for item in contents:
     print(item)
-
+# print(contents)
 
 # 5. Label the program written in problem 4 with comments. (already commented)
