@@ -1,4 +1,4 @@
-from 01_basic01 import tiger
+from Chapter01.basic import tiger
 
 tiger("punjab tiger")
 
