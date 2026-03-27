@@ -6,7 +6,7 @@
 
 # print(a[-4: -1])
 
-# print(a[:4])
+# print(a[:4]) it same as 0:4
 
 # print(a[2:])
 
@@ -34,7 +34,7 @@ d = " Hello, World! "
 # print(d.upper())          # Convert to uppercase
 # print(d.replace("H", "J"))  # Replace substring
 # print(d.split(","))      # Split string into a list
-# print(d.title())   # Find substring index
+# print(d.title())         # Find substring index
 # print(d.find("world"))
 # print(d.index("world"))
 # print(d.isalpha())       # Check if all characters are alphabetic
@@ -47,3 +47,8 @@ d = " Hello, World! "
 print(d.center(3))     # Center the string within a specified width
 print(d.replace("o", "8")) # Replace occurrences of a substring with another substring
 print(d.join(["A", "B", "C", "D"]))  # Join elements of an iterable with the string as a separator
+
+name = "Harry"
+
+shortname = name[1 : 4]
+print(shortname)
